@@ -1,0 +1,47 @@
+source env/bin/activate
+uvicorn main:app --reload
+
+
+SHOPING APP PYTHON ==> FASTAPI
+DATABASE == > sqllite/mysql
+Create new product ==> C
+View Products list  ==> R
+Update product ==> U
+Delete Product == D
+
+127.0.0.1/api/product 
+Method(POST)
+Status:
+Payload {
+    ID
+    Name
+    Price
+    Brand
+    Onsales
+    ExpDate
+}
+127.0.0.1/api/products/limit(10)
+Method(GET)
+Status:
+
+
+127.0.0.1/api/product/product_id)
+Method(GET)
+Status:
+Payload {
+    product_id
+}
+
+127.0.0.1/api/product/product_id)
+Method(UPDATE)
+Status:
+Payload {
+    Perform update request
+}
+
+127.0.0.1/api/product/product_id)
+Method(DELETE)
+Status:
+Payload {
+    Perform delete request
+}

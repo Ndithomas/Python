@@ -1,0 +1,12 @@
+"username": "testuser",
+"email": "test@example.com",
+"password": "securepassword"
+
+AUTH.PY file
+
+This code handles:
+Password hashing & verification
+JWT access token creation
+Token-based user authentication
+Getting the logged-in user
+Ensuring the user is active
