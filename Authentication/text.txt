@@ -10,3 +10,22 @@ JWT access token creation
 Token-based user authentication
 Getting the logged-in user
 Ensuring the user is active
+In programming and computing, "payload" generally refers to the actual data being sent in a request or message — 
+the part that matters to the recipient.
+
+
+SCHEMAS.PY file
+
+This Python code defines several Pydantic models using the BaseModel class to structure and validate data for a FastAPI application. 
+Here's a detailed explanation of each part:
+
+
+
+
+models.py: Defines SQLModel models for User and Product.
+
+database.py: Includes DB creation logic and session dependency.
+
+auth.py: Handles hashing, verifying passwords, creating JWTs, and getting the logged-in user.
+
+schemas.py: Pydantic schemas for input/output validation.
